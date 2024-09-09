@@ -14,6 +14,7 @@ class TodoBase(BaseModel):
     description: Optional[str] = None
     completed: bool = False
 
+
 class TodoResponse(TodoBase):
     id: int
     class Config:
